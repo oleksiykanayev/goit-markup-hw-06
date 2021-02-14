@@ -320,7 +320,6 @@ transform: translate(-50%, -50%) scale(1.2);
   display: inline-block;
   width: 16px;
   height: 15px;
-  outline: 2px solid var(--sec-textcolor);
   content: "";
   margin-left: 14px;
   margin-right: 7px;
@@ -338,13 +337,13 @@ transform: translate(-50%, -50%) scale(1.2);
 
 .modal-form-check-policy:checked + .modal-form-label-policy::before {
   background-image: url(../image/check.svg);
-  outline: none;
   cursor: pointer;
 }
 
-.modal-form-label-policy:focus {
-  text-shadow: none;
+.modal-form-check-policy:focus + .modal-form-label-policy::before {
+outline: 2px solid var(--sec-textcolor);
 }
+ 
 
 
 .visually-hidden {
