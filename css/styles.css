@@ -823,11 +823,26 @@ color: var(--main-lite-color);
   max-width: 570px;
   height: 86px;
 }
+.baseform {
+  display: flex;
+}
+.connect-form {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  width: 219px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+
+  color: var(--main-lite-color);
+}
 .futer-form-input {
-  display: block;
+  display: inline-block;
   width: 358px;
   height: 50px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: var(--back1-color);
   color: var(--main-lite-color);
@@ -836,7 +851,7 @@ color: var(--main-lite-color);
 }
 .futer-form-input::placeholder {
   
-  color: teal;
+  color: var(--basecont-color);
  
 
   font-size: 16px;
