@@ -807,7 +807,7 @@ transform: translate(-50%, -50%) scale(1.2);
 }
 
 .modal-form-check-policy:focus + .modal-form-label-policy::before {
-   cursor: pointer;  
+  cursor: pointer;  
 }
  
 
