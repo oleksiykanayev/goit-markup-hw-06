@@ -791,6 +791,7 @@ transform: translate(-50%, -50%) scale(1.2);
   content: "";
   margin-left: 14px;
   margin-right: 7px;
+  outline: 2px solid var(--sec-textcolor);
 }
 
 .modal-form-label-policy {
@@ -799,16 +800,14 @@ transform: translate(-50%, -50%) scale(1.2);
   flex-wrap: wrap;
   line-height: 1.71;
   margin-bottom: 32px;
-  cursor: pointer;
 }
 
 .modal-form-check-policy:checked + .modal-form-label-policy::before {
   background-image: url(../image/check.svg);
-  cursor: pointer;
 }
 
 .modal-form-check-policy:focus + .modal-form-label-policy::before {
-  outline: 2px solid var(--sec-textcolor);
+   cursor: pointer;  
 }
  
 
