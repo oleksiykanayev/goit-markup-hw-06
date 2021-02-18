@@ -400,10 +400,12 @@ color: var(--accent-color);
   border: 1px solid var(--iconteam-color);
   border-radius: 4px;
   transition: border 250ms var(--cubic-effect);
+  transition: border-color 250ms var(--cubic-effect);
 }
 .regcust-link:hover,
 .regcust-link:focus {
   border: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
 }
 .regcust-link:hover .regcust-icon,
 .regcust-link:focus .regcust-icon {
